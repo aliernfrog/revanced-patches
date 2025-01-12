@@ -49,6 +49,8 @@ public class Settings extends BaseSettings {
     public static final BooleanSetting REMEMBER_VIDEO_QUALITY_LAST_SELECTED = new BooleanSetting("revanced_remember_video_quality_last_selected", FALSE);
     public static final IntegerSetting VIDEO_QUALITY_DEFAULT_WIFI = new IntegerSetting("revanced_video_quality_default_wifi", -2);
     public static final IntegerSetting VIDEO_QUALITY_DEFAULT_MOBILE = new IntegerSetting("revanced_video_quality_default_mobile", -2);
+    public static final IntegerSetting VIDEO_QUALITY_DEFAULT_WIFI_SHORTS = new IntegerSetting("revanced_video_quality_default_wifi_shorts", -2);
+    public static final IntegerSetting VIDEO_QUALITY_DEFAULT_MOBILE_SHORTS = new IntegerSetting("revanced_video_quality_default_mobile_shorts", -2);
     // Speed
     public static final BooleanSetting REMEMBER_PLAYBACK_SPEED_LAST_SELECTED = new BooleanSetting("revanced_remember_playback_speed_last_selected", FALSE);
     public static final BooleanSetting CUSTOM_SPEED_MENU = new BooleanSetting("revanced_custom_speed_menu", TRUE);
